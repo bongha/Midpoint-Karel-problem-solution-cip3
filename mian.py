@@ -1,6 +1,10 @@
 from karel.stanfordkarel import *
 
-#this solution solve the midpoint problem by drawing a diagonal line with beepers from bottom right corner to top left corner, and make Karel check beeper from bottom left corner to top right corner.In the process, Karel would draw a cross on the map, the crossing point would sit above the midpoint.
+# this solution solve the midpoint problem by drawing a diagonal 
+# line with beepers from bottom right corner to top left corner, 
+# and make Karel check beeper from bottom left corner to top right corner.
+# In the process, Karel would draw a cross on the map, 
+# the crossing point would sit above the midpoint.
 
 def main():
     go_to_bottom_right()
